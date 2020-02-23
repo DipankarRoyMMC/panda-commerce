@@ -21,3 +21,28 @@
 .carousel-item{
     padding: 20px 40px;
 }
+
+
+.categories h1{
+    color: #fff;
+    font-size: 30px;
+}
+
+.categories img{
+    width: 100px;
+}
+
+.cat1, .cat2, .cat3{
+    padding: 10px 20px;   
+    border-radius: 10px;
+}
+
+.cat1{
+    background-image: linear-gradient(to right, #edaa31 0%, #EA9600 100%);
+}
+.cat2{
+    background-image: linear-gradient(to right, #e16dda 0%, #D060C9 100%);
+}
+.cat3{
+    background-image: linear-gradient(to right, #4f27f7 0%, #3000F8 100%);
+}
