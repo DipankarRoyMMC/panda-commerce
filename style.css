@@ -62,3 +62,21 @@
     border-top: none;
     background-color: #fff;
 }
+
+.subscribe-content{
+    height: 300px;
+}
+.subscribe-content p{
+    color: gray;
+}
+footer{
+    text-align: center;
+    color: gray;
+    padding-bottom: 15px;
+}
+
+@media (max-width: 767px){
+    .card{
+        width: 100%;
+    }
+}
