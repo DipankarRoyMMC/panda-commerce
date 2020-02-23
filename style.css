@@ -47,13 +47,18 @@
     background-image: linear-gradient(to right, #4f27f7 0%, #3000F8 100%);
 }
 
-.shoes .card{
+.card{
     border: none;
     box-shadow: 5px 5px 15px lightgray;
     border-radius: 5px;
 }
 
-.shoes h1{
+ h3{
     font-size: 30px;
     margin-bottom: 30px;
+}
+
+.card-footer{
+    border-top: none;
+    background-color: #fff;
 }
