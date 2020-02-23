@@ -10,10 +10,95 @@
     
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="Website Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#shoes">Shoes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#backpack">Backpack</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#subscribe">Subscribe</a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="carousel-slider">
+        <div class="container">
+            <div id="carouselExampleSlidesOnly" class="carousel slide orange-bg" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-interval="1000">
+                      <div class="row align-items-center">
+                            <div class="col-lg-7">
+                                <h1>Best LCD TV On the World</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla perferendis deserunt dolor nesciunt rem neque ratione provident voluptates eos dolorem.</p>
+                                <h1 class="price">$1200</h1>
+                                <button class="buy-now-btn">Buy Now</button>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/banner-images/tv.png" class="d-block w-100" alt="Head Phone image">
+                            </div>
+                      </div>
+                  </div>
+
+                  <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-lg-7">
+                                <h1>One of the Best Headphone</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum porro eos deleniti alias. Sint magnam excepturi, laborum ad consequatur tempore mollitia odio alias recusandae saepe!</p>
+                                <h1 class="price">$600</h1>
+                                <button class="buy-now-btn">Buy Now</button>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/banner-images/headphone.png" class="d-block w-100" alt="Tv image">
+                            </div>
+                        </div>
+                  </div>
+                  
+                  <div class="carousel-item">
+                      <div class="row align-items-center">
+                          <div class="col-lg-7">
+                            <h1>Exclusive xBox for your family</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aut fugiat ipsa voluptatum consequuntur numquam, ab consectetur modi corporis enim necessitatibus ad veritatis illo.</p>
+                                <h1 class="price">$420</h1>
+                                <button class="buy-now-btn">Buy Now</button>
+                          </div>
+                          <div class="col-lg-5">                              
+                            <img src="images/banner-images/xbox.png" class="d-block w-100" alt="Box image">
+                          </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script>
+        $('.carousel').carousel({
+            interval: 2000
+        });
+    </script>
+    
 </body>
 </html>
